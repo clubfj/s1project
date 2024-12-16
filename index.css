@@ -1,11 +1,15 @@
+/* total */
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #ffffff; 
     color: #000000;
     line-height: 1.6;
-    
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
-
+/* header */
 .intro {
     background-color: rgb(139, 243, 250);
     display: flex;
@@ -13,6 +17,64 @@ body {
     align-items: center;
 }
 
- {
+h1:hover{
+    text-shadow:none;
+}
 
+.links {
+    background-color: rgb(134, 235, 235);
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.links a:link{
+    
+    padding: 20px 30px;
+    flex: 1;
+    text-align: center;
+    color: #ba7d02;
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: #ba7d02;
+    text-decoration: none;
+    background-color: rgb(37, 117, 117) ;
+}
+
+.links a:active{
+    color:burlywood
+}
+
+/* main */
+.main {
+    flex: 1;
+    padding: 8px;
+}
+
+
+
+/* footer */
+.footLinks {
+    background-color: rgb(134, 235, 235);
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.footLinks a:link{
+    padding: 20px 30px;
+    flex: 1;
+    text-align: center;
+    color: #ba7d02;
+    text-decoration: none;
+}
+
+.footLinks a:hover{
+    color: #ba7d02;
+    text-decoration: none;
+    background-color: rgb(37, 117, 117) ;
+}
+
+.footLinks a:active{
+    color:burlywood
 }
