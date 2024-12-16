@@ -46,6 +46,10 @@ h1:hover{
     color:burlywood
 }
 
+.links a:visited{
+    color: #ba7d02;
+}
+
 /* main */
 .main {
     flex: 1;
@@ -77,4 +81,8 @@ h1:hover{
 
 .footLinks a:active{
     color:burlywood
+}
+
+.footLinks a:visited{
+    color: #ba7d02;
 }
