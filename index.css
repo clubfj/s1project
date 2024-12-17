@@ -60,6 +60,20 @@ h1:hover{
     align-content:space-evenly;
 }
 
+#imgMain{
+    display: flex;
+    flex-flow: row nowrap;
+}
+#imgMain #cars{
+
+}
+#imgMain img{
+   border-style: double;
+   padding: 3px;
+   margin: 10px;
+   flex-grow: 5;
+}
+
 
 /* footer */
 footer {
