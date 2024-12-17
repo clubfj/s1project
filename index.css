@@ -17,6 +17,7 @@ body {
     align-items: center;
 }
 
+
 h1:hover{
     text-shadow:none;
 }
@@ -54,11 +55,18 @@ h1:hover{
 .main {
     flex: 1;
     padding: 8px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-content:space-evenly;
 }
 
 
-
 /* footer */
+footer {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
 .footLinks {
     background-color: rgb(134, 235, 235);
     display: flex;
@@ -85,4 +93,14 @@ h1:hover{
 
 .footLinks a:visited{
     color: #ba7d02;
+}
+
+.end{
+    background-color:rgb(139, 243, 250);
+    text-align: center;
+}
+
+.end p{
+    font-size: 8px;
+    font-style: italic;
 }
