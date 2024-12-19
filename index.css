@@ -64,9 +64,7 @@ h1:hover{
     display: flex;
     flex-flow: row nowrap;
 }
-#imgMain #cars{
 
-}
 #imgMain img{
    border-style: double;
    padding: 3px;
